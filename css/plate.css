@@ -1,0 +1,260 @@
+* body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: green;
+    color: white;
+    padding-bottom: 4em;
+    overflow: hidden;
+    width: 65%;
+}
+a:hover{
+    border-bottom: 2px solid white;
+    margin: 4px;
+    font-size: 12px;
+    width: 65%;
+}
+.topnav{
+    background-color: green;
+    display: flex;
+    margin-left: 12em;
+}
+.topnav img{
+    width: 25px;
+    height: 25px;
+}
+.shuu{
+    display: flex;
+    margin: 10px;
+}
+
+.shuu > div{
+    display: inline;
+}
+.shuu h5{
+    margin-top: 0px;
+    margin-bottom: 0em;
+}
+.shuu p{
+    margin: 0;
+    font-size: 10px;
+}
+.topnav ul{
+    list-style: none;
+    display: flex;
+}
+.topnav li{
+    padding-left: 3em;
+}
+.topnav a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav{
+    margin-left: 12em;
+    
+}
+
+.nav h1{
+    font-size: 55px;
+    width: 36%;
+    margin-bottom: 0px;
+}
+.countdown ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    
+}
+.countdown li{
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.countdown li:hover{
+    border-bottom: 2px solid white;
+    margin: 2px;
+    font-size: 20px;
+}
+.countdown p{
+    margin-top: 0;
+}
+.combo{
+    display: flex;
+}
+.prebody{
+    background-color: white;
+}
+.prebody img{
+    height: 31em;
+    width: 31em;
+    position: absolute;
+    border-radius: 23em;
+    right: 21em;
+    bottom: 16em;
+}
+.body{
+    display: flex;
+    margin-left: 12em;
+    margin-top: 2em;
+}
+.body img{
+    height: 20em;
+    width: 25em;
+    /* border: none; */
+    margin-right: 5em;
+}
+.body{
+    width: 50em;
+}
+.tetaa h3{
+    font-size: 25px;
+    width: 250px;
+    margin-bottom: 0px;
+}
+.tetaa p{
+    font-size: 10px;
+}
+.tetaa ul{
+    list-style: none;
+}
+.tetaa button{
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.package{
+    background-color: green;  
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+.triple {
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+}
+.wording{
+    text-align: center;
+    color: white;
+}
+.imagemom img{
+    height: 70px;
+    width: 70px;
+    border-radius: 30em;
+    margin-left: 8em;
+}
+.detox{
+    background-color: white;
+    width: 11em;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    padding: 30px 15px;
+}
+.detox h4{
+    font-weight: 900;
+
+}
+.detox p{
+    width: 12em;
+    text-align:left;
+    padding-bottom: 0;
+}
+.detox button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 25px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    cursor: pointer;
+    
+} 
+.balanced{
+    background-color: white;
+    width: 11em;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    padding: 30px 15px;
+
+}
+.balanced h4{
+    font-weight: 900;
+
+}
+.balanced p{
+    width: 10em;
+    text-align: left;
+   
+    padding-bottom: 0;
+}
+.balanced button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 25px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.vegan{
+    background-color: white;
+    width: 12em;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    padding: 30px 14px;
+
+    
+}
+.vegan h4{
+    font-weight: 900;
+
+}
+.vegan p{
+    width: 10em;
+    text-align: left;
+   
+    padding-bottom: 0;
+}
+.vegan button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 25px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    cursor: pointer;
+
+    
+}
+footer{
+    text-align: center;
+}
+/* media query */
+@media(max-width:1500px){
+    .prebody img{
+        right: 20em;
+        bottom: -4em;
+    }
+}
+
+@media(max-width:1450px){
+    .prebody img{
+        right: 17em;
+    }
+}

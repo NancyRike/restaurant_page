@@ -1,0 +1,59 @@
+body {
+    margin: 0px auto; 
+    padding: 0px; 
+    background-color: green;
+    
+    color: white;
+    
+    }
+
+    #carrier{
+        background-image: url(thechef.jpg);
+        width: 37%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        padding: 2px;
+        
+        
+    }
+    
+   .first p{
+        font-size: 25px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .first ul{
+
+        display: block;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+
+
+    }
+    .first li{
+        display: block;
+        border-bottom: 6px solid green;
+        padding: 10px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .second{
+        display: flex;
+        padding: 0px 30px;
+        background-color: darkgray;
+        opacity: 0.7;
+    }
+    h6{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .ritar a{
+        border: 2px solid grey;
+        padding: 2px 8px;
+        border-radius: 12px;
+    }
